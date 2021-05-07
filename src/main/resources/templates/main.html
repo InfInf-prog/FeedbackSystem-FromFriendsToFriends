@@ -1,10 +1,61 @@
-<!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-    <title>Getting Started: Serving Web Content</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/styleForMain.css">
+    <title>MainPage</title>
 </head>
 <body>
-<p th:text="${greeting}" />
+
+<div class="intro">
+    <div class="container">
+        <h1>PAMI - cистема отзывов для друзей.</h1>
+        <h2>
+            <p>Мы поможем Вам составить рейтинг товаров,</p>
+            <br>основываясь на предпочтениях и проверенных отзывах.</br>
+        </h2>
+        <a class="su_botton" href="#">начать использовать</a>
+        <a class="lm_botton" href="#">Узнать больше</a>
+    </div>
+</div>
+
+<div class="carousel">
+    <div class="container">
+        <div class="section">
+            <img class="img" src="../static/images/Stars.png" alt="Звёзды">
+            <div class="benefits_text">
+                <br>Съели что-то вкусное и хотите не забыть марку товара?</br>
+                <br>Или же наткнулись на некачественную продукцию?</br>
+                <br>Оставьте свой честный отзыв о товаре,
+                который будет доступен вашим друзьям.</br>
+            </div>
+        </div>
+        <div class="section">
+            <div class="benefits_text">
+                <br>Устали попадаться на купленные отзывы с других ресурсов?</br>
+                <br>Кому доверять, если не друзьям?</br>
+                <br>Все их рекомендации можно найти здесь!</br>
+            </div>
+            <img class="img" src="../static/images/Money.png" alt="Деньги">
+        </div>
+        <div class="section">
+            <img class="img" src="../static/images/Computer.png" alt="Компьютер">
+            <div class="benefits_text">
+                <br>Простой интерфейс и приятный дизайн.</br>
+                <br>Ничто не доставит проблем с использованием!</br>
+            </div>
+        </div>
+        <div class="section">
+            <div class="benefits_text">
+                <br>Наши пользователи - ваши друзья ВКонтакте. </br>
+                <br>Анализируйте мнения знакомых
+                и формируйте на иx основе собственную оценку товара.</br>
+            </div>
+            <img class="img" src="../static/images/Users.png" alt="Пользователи">
+        </div>
+    </div>
+</div>
 </body>
 </html>
