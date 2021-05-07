@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-    font-size: calc( (100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1.5rem);;
+    font-size: calc( (100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1.5rem);
     margin: 10% auto 5%;
 }
 
@@ -42,8 +42,8 @@ h2 {
     overflow: hidden;
 }
 
-/*Start using botton*/
-.su_botton {
+/*Start using button*/
+.su_button {
     width: 260px;
 
     padding: 15px 25px;
@@ -67,14 +67,14 @@ h2 {
 
 }
 
-.su_botton:hover {
+.su_button:hover {
     box-shadow: 2px 3px 3px rgb(126, 122, 122);
 
     transition-property: box-shadow;
     transition-duration: 0.2s;
 }
 
-.su_botton:active {
+.su_button:active {
     box-shadow: none;
 
     background-color: #a8a8a8;
@@ -84,8 +84,8 @@ h2 {
     transition-duration: 0.3s;
 }
 
-/*Learn more botton */
-.lm_botton {
+/*Learn more button */
+.lm_button {
     color: white;
     width: 97%;
     display: block;
